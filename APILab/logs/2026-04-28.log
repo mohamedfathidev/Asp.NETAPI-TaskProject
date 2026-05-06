@@ -1,0 +1,113 @@
+2026-04-28 19:11:38.7011 [INFO] APILab.Program Application starting... 
+2026-04-28 19:11:39.8004 [INFO] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5062 
+2026-04-28 19:11:39.8636 [INFO] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. 
+2026-04-28 19:11:39.8636 [INFO] Microsoft.Hosting.Lifetime Hosting environment: Development 
+2026-04-28 19:11:39.8636 [INFO] Microsoft.Hosting.Lifetime Content root path: M:\ITI\API\Labs\Day2\APILab\APILab 
+2026-04-28 19:11:50.3019 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - - - 
+2026-04-28 19:11:50.6317 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 304 - - 348.5143ms 
+2026-04-28 19:11:50.6941 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.css - - - 
+2026-04-28 19:11:50.6941 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - - - 
+2026-04-28 19:11:50.6941 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-28 19:11:50.7017 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - - - 
+2026-04-28 19:11:50.7267 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-28 19:11:50.7267 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.js - - - 
+2026-04-28 19:11:50.7379 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.js - 304 - - 9.8150ms 
+2026-04-28 19:11:50.7379 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_vs/browserLink - - - 
+2026-04-28 19:11:50.7379 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - 200 14917 application/javascript;+charset=utf-8 47.4815ms 
+2026-04-28 19:11:50.7682 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.css - 304 - - 74.2714ms 
+2026-04-28 19:11:50.7682 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - 304 - - 74.2713ms 
+2026-04-28 19:11:50.7682 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - 304 - - 66.6152ms 
+2026-04-28 19:11:50.7682 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - 304 - - 65.5773ms 
+2026-04-28 19:11:50.7923 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 48.9951ms 
+2026-04-28 19:11:51.0282 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - - - 
+2026-04-28 19:11:51.0282 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - - - 
+2026-04-28 19:11:51.0282 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - 304 - - 1.0970ms 
+2026-04-28 19:11:51.0518 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 23.7311ms 
+2026-04-28 19:11:56.5611 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/api/Student - - - 
+2026-04-28 19:11:56.5611 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 19:11:56.5922 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller APILab.Controllers.StudentController (APILab). 
+2026-04-28 19:11:57.9410 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[DateOfBirth], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [s].[SSN]
+FROM [students] AS [s] 
+2026-04-28 19:11:58.0647 [INFO] APILab.Controllers.StudentController Return all students and Student count is 4 
+2026-04-28 19:11:58.0746 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[APILab.Models.Student, APILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-04-28 19:11:58.0948 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action APILab.Controllers.StudentController.GetAll (APILab) in 1494.1982ms 
+2026-04-28 19:11:58.0948 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 19:11:58.1053 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/api/Student - 200 - application/json;+charset=utf-8 1544.2305ms 
+2026-04-28 19:12:39.5727 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/api/Student/6 - - - 
+2026-04-28 19:12:39.5741 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'APILab.Controllers.StudentController.GetById (APILab)' 
+2026-04-28 19:12:39.5741 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller APILab.Controllers.StudentController (APILab). 
+2026-04-28 19:12:39.8268 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (86ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Address], [s].[Age], [s].[DateOfBirth], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [s].[SSN]
+FROM [students] AS [s]
+WHERE [s].[Id] = @id 
+2026-04-28 19:12:39.8268 [INFO] APILab.Controllers.StudentController return the student with id (6) 
+2026-04-28 19:12:39.8268 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'APILab.Models.Student'. 
+2026-04-28 19:12:39.8268 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action APILab.Controllers.StudentController.GetById (APILab) in 246.0184ms 
+2026-04-28 19:12:39.8268 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'APILab.Controllers.StudentController.GetById (APILab)' 
+2026-04-28 19:12:39.8268 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/api/Student/6 - 200 - application/json;+charset=utf-8 257.4483ms 
+2026-04-28 22:04:36.3925 [INFO] APILab.Program Application starting... 
+2026-04-28 22:04:37.5038 [INFO] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5062 
+2026-04-28 22:04:37.5520 [INFO] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. 
+2026-04-28 22:04:37.5520 [INFO] Microsoft.Hosting.Lifetime Hosting environment: Development 
+2026-04-28 22:04:37.5520 [INFO] Microsoft.Hosting.Lifetime Content root path: M:\ITI\API\Labs\Day2\APILab\APILab 
+2026-04-28 22:04:48.4875 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - - - 
+2026-04-28 22:04:48.7047 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 304 - - 224.1848ms 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.css - - - 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - - - 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - - - 
+2026-04-28 22:04:48.7422 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.js - - - 
+2026-04-28 22:04:48.7917 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.js - 304 - - 6.5029ms 
+2026-04-28 22:04:48.8273 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - 200 14917 application/javascript;+charset=utf-8 83.4899ms 
+2026-04-28 22:04:48.8409 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - 304 - - 96.9661ms 
+2026-04-28 22:04:48.8409 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - 304 - - 98.8204ms 
+2026-04-28 22:04:48.8409 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.css - 304 - - 98.8197ms 
+2026-04-28 22:04:48.8409 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - 304 - - 96.9757ms 
+2026-04-28 22:04:48.8409 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_vs/browserLink - - - 
+2026-04-28 22:04:48.8993 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 54.2898ms 
+2026-04-28 22:04:48.9542 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - - - 
+2026-04-28 22:04:48.9542 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - - - 
+2026-04-28 22:04:48.9542 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - 304 - - 0.7650ms 
+2026-04-28 22:04:48.9695 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 15.2454ms 
+2026-04-28 22:04:59.3815 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/api/Student - - - 
+2026-04-28 22:04:59.3815 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 22:04:59.3982 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller APILab.Controllers.StudentController (APILab). 
+2026-04-28 22:05:01.0308 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[DateOfBirth], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [s].[SSN]
+FROM [students] AS [s] 
+2026-04-28 22:05:01.0889 [INFO] APILab.Controllers.StudentController Return all students and Student count is 4 
+2026-04-28 22:05:01.0889 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[APILab.Models.Student, APILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-04-28 22:05:01.1087 [INFO] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action APILab.Controllers.StudentController.GetAll (APILab) in 1704.5745ms 
+2026-04-28 22:05:01.1087 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 22:05:01.1156 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/api/Student - 200 - application/json;+charset=utf-8 1734.1879ms 
+2026-04-28 22:07:15.7351 [INFO] APILab.Program Application starting... 
+2026-04-28 22:07:16.4604 [INFO] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5062 
+2026-04-28 22:07:16.5113 [INFO] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. 
+2026-04-28 22:07:16.5113 [INFO] Microsoft.Hosting.Lifetime Hosting environment: Development 
+2026-04-28 22:07:16.5113 [INFO] Microsoft.Hosting.Lifetime Content root path: M:\ITI\API\Labs\Day2\APILab\APILab 
+2026-04-28 22:07:20.1658 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - - - 
+2026-04-28 22:07:20.3781 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 304 - - 218.6088ms 
+2026-04-28 22:07:20.4206 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-28 22:07:20.4206 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.css - - - 
+2026-04-28 22:07:20.4206 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - - - 
+2026-04-28 22:07:20.4206 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - - - 
+2026-04-28 22:07:20.4506 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-28 22:07:20.4506 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.js - - - 
+2026-04-28 22:07:20.4584 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.js - 304 - - 7.5842ms 
+2026-04-28 22:07:20.4834 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - 200 14917 application/javascript;+charset=utf-8 42.6616ms 
+2026-04-28 22:07:20.4987 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - 304 - - 72.8229ms 
+2026-04-28 22:07:20.4987 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - 304 - - 77.1352ms 
+2026-04-28 22:07:20.4987 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - 304 - - 81.7700ms 
+2026-04-28 22:07:20.4987 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.css - 304 - - 81.9012ms 
+2026-04-28 22:07:20.4987 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/_vs/browserLink - - - 
+2026-04-28 22:07:20.5398 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 38.0717ms 
+2026-04-28 22:07:20.5691 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - - - 
+2026-04-28 22:07:20.5691 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - - - 
+2026-04-28 22:07:20.5691 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - 304 - - 1.0936ms 
+2026-04-28 22:07:20.5847 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 15.6305ms 
+2026-04-28 22:07:24.4661 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:5062/getEx - - - 
+2026-04-28 22:07:24.4661 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'HTTP: GET /getEx' 
+2026-04-28 22:07:24.5185 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'HTTP: GET /getEx' 
+2026-04-28 22:07:24.5914 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/1.1 GET http://localhost:5062/getEx - 500 - - 125.5322ms 

@@ -1,0 +1,292 @@
+2026-04-28 18:29:55.8288 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2026-04-28 18:29:55.9197 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting starting 
+2026-04-28 18:29:55.9437 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware | Middleware loaded 
+2026-04-28 18:29:55.9437 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14917 B). 
+2026-04-28 18:29:55.9437 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2026-04-28 18:29:56.0695 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2026-04-28 18:29:56.0695 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Wildcard detected, all requests with hosts will be allowed. 
+2026-04-28 18:29:56.0760 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2026-04-28 18:29:56.1294 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5062 
+2026-04-28 18:29:56.1294 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly APILab 
+2026-04-28 18:29:56.1294 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2026-04-28 18:29:56.1294 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2026-04-28 18:29:56.1294 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2026-04-28 18:29:56.1382 | DEBUG | Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0. 
+2026-04-28 18:29:56.1382 | DEBUG | Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0. 
+2026-04-28 18:29:56.1761 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2026-04-28 18:29:56.1761 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2026-04-28 18:29:56.1761 | INFO | Microsoft.Hosting.Lifetime | Content root path: M:\ITI\API\Labs\Day2\APILab\APILab 
+2026-04-28 18:29:56.1761 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting started 
+2026-04-28 18:30:16.0827 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLT9" accepted. 
+2026-04-28 18:30:16.0827 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" accepted. 
+2026-04-28 18:30:16.0827 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLT9" started. 
+2026-04-28 18:30:16.0827 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" started. 
+2026-04-28 18:30:16.1312 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - - - 
+2026-04-28 18:30:16.2604 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.html' 
+2026-04-28 18:30:16.2611 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.3393 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLT9" completed keep alive response. 
+2026-04-28 18:30:16.3393 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 304 - - 221.5070ms 
+2026-04-28 18:30:16.3989 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.css - - - 
+2026-04-28 18:30:16.3989 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - - - 
+2026-04-28 18:30:16.3989 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTB" accepted. 
+2026-04-28 18:30:16.3989 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTB" started. 
+2026-04-28 18:30:16.4040 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - - - 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.css' 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui.css' 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.4040 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.4371 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.4371 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLT9" completed keep alive response. 
+2026-04-28 18:30:16.4371 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTB" completed keep alive response. 
+2026-04-28 18:30:16.4371 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - 304 - - 38.6869ms 
+2026-04-28 18:30:16.4371 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.css - 304 - - 38.5860ms 
+2026-04-28 18:30:16.4371 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - 304 - - 37.3038ms 
+2026-04-28 18:30:16.4371 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-28 18:30:16.4371 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2026-04-28 18:30:16.4371 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.4589 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.js - - - 
+2026-04-28 18:30:16.4589 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.js' 
+2026-04-28 18:30:16.4589 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.4589 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLT9" completed keep alive response. 
+2026-04-28 18:30:16.4589 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.4589 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.js - 304 - - 0.8031ms 
+2026-04-28 18:30:16.4589 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - 304 - - 12.6699ms 
+2026-04-28 18:30:16.4675 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-28 18:30:16.4675 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Script injected: /_framework/aspnetcore-browser-refresh.js 
+2026-04-28 18:30:16.4675 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.4675 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - 200 14917 application/javascript;+charset=utf-8 4.6058ms 
+2026-04-28 18:30:16.4856 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/_vs/browserLink - - - 
+2026-04-28 18:30:16.5415 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.5415 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 56.1933ms 
+2026-04-28 18:30:16.7823 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - - - 
+2026-04-28 18:30:16.7823 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/v1/swagger.json' 
+2026-04-28 18:30:16.7823 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.7983 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.7983 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 16.1579ms 
+2026-04-28 18:30:16.8104 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - - - 
+2026-04-28 18:30:16.8104 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/favicon-32x32.png' 
+2026-04-28 18:30:16.8104 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:16.8104 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57C64DLTA" completed keep alive response. 
+2026-04-28 18:30:16.8104 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - 304 - - 0.7253ms 
+2026-04-28 18:30:37.7748 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2026-04-28 18:30:38.1346 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting starting 
+2026-04-28 18:30:38.1550 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware | Middleware loaded 
+2026-04-28 18:30:38.1550 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14917 B). 
+2026-04-28 18:30:38.1550 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2026-04-28 18:30:38.2990 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2026-04-28 18:30:38.2990 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Wildcard detected, all requests with hosts will be allowed. 
+2026-04-28 18:30:38.2990 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2026-04-28 18:30:38.3542 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5062 
+2026-04-28 18:30:38.3542 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly APILab 
+2026-04-28 18:30:38.3542 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2026-04-28 18:30:38.3542 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2026-04-28 18:30:38.3542 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2026-04-28 18:30:38.3615 | DEBUG | Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider | Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0. 
+2026-04-28 18:30:38.3615 | DEBUG | Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider | Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0. 
+2026-04-28 18:30:38.3947 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2026-04-28 18:30:38.3947 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2026-04-28 18:30:38.3947 | INFO | Microsoft.Hosting.Lifetime | Content root path: M:\ITI\API\Labs\Day2\APILab\APILab 
+2026-04-28 18:30:38.3947 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting started 
+2026-04-28 18:30:50.2898 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9C" accepted. 
+2026-04-28 18:30:50.2898 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9C" started. 
+2026-04-28 18:30:50.2898 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9D" accepted. 
+2026-04-28 18:30:50.2898 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9D" started. 
+2026-04-28 18:30:50.3288 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - - - 
+2026-04-28 18:30:50.4630 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.html' 
+2026-04-28 18:30:50.4630 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.5446 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9C" completed keep alive response. 
+2026-04-28 18:30:50.5446 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 304 - - 225.4824ms 
+2026-04-28 18:30:50.5982 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9E" accepted. 
+2026-04-28 18:30:50.5982 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9E" started. 
+2026-04-28 18:30:50.5982 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9F" accepted. 
+2026-04-28 18:30:50.5982 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9F" started. 
+2026-04-28 18:30:50.5982 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.css - - - 
+2026-04-28 18:30:50.5982 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - - - 
+2026-04-28 18:30:50.5982 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - - - 
+2026-04-28 18:30:50.5982 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" accepted. 
+2026-04-28 18:30:50.6049 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - - - 
+2026-04-28 18:30:50.6049 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" started. 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2026-04-28 18:30:50.6505 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - - - 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.css' 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/swagger-ui.css' 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.6505 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9H" accepted. 
+2026-04-28 18:30:50.6517 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9H" started. 
+2026-04-28 18:30:50.6517 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.js - - - 
+2026-04-28 18:30:50.6517 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.js' 
+2026-04-28 18:30:50.6517 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.6517 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9H" completed keep alive response. 
+2026-04-28 18:30:50.6978 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.js - 304 - - 45.4662ms 
+2026-04-28 18:30:50.6978 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware | Script injected: /_framework/aspnetcore-browser-refresh.js 
+2026-04-28 18:30:50.6978 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" completed keep alive response. 
+2026-04-28 18:30:50.6978 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/_framework/aspnetcore-browser-refresh.js - 200 14917 application/javascript;+charset=utf-8 87.0344ms 
+2026-04-28 18:30:50.7037 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/_vs/browserLink - - - 
+2026-04-28 18:30:50.7209 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9C" completed keep alive response. 
+2026-04-28 18:30:50.7209 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9F" completed keep alive response. 
+2026-04-28 18:30:50.7209 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9D" completed keep alive response. 
+2026-04-28 18:30:50.7209 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-standalone-preset.js - 304 - - 116.5786ms 
+2026-04-28 18:30:50.7209 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui.css - 304 - - 121.8118ms 
+2026-04-28 18:30:50.7209 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9E" completed keep alive response. 
+2026-04-28 18:30:50.7209 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.css - 304 - - 121.9111ms 
+2026-04-28 18:30:50.7209 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/swagger-ui-bundle.js - 304 - - 116.9202ms 
+2026-04-28 18:30:50.7818 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" completed keep alive response. 
+2026-04-28 18:30:50.7818 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 78.3663ms 
+2026-04-28 18:30:50.8193 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - - - 
+2026-04-28 18:30:50.8193 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/v1/swagger.json' 
+2026-04-28 18:30:50.8193 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.8193 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - - - 
+2026-04-28 18:30:50.8193 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/favicon-32x32.png' 
+2026-04-28 18:30:50.8193 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2026-04-28 18:30:50.8193 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9E" completed keep alive response. 
+2026-04-28 18:30:50.8193 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/favicon-32x32.png - 304 - - 1.1649ms 
+2026-04-28 18:30:50.8402 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" completed keep alive response. 
+2026-04-28 18:30:50.8402 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 21.1840ms 
+2026-04-28 18:31:00.9441 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET http://localhost:5062/api/Student - - - 
+2026-04-28 18:31:00.9517 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/api/Student' 
+2026-04-28 18:31:00.9517 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' with route pattern 'api/Student' is valid for the request path '/api/Student' 
+2026-04-28 18:31:00.9517 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 18:31:00.9517 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 18:31:00.9746 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller APILab.Controllers.StudentController (APILab). 
+2026-04-28 18:31:00.9746 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of authorization filters (in the following order): None 
+2026-04-28 18:31:00.9746 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of resource filters (in the following order): None 
+2026-04-28 18:31:00.9746 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2026-04-28 18:31:00.9805 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of exception filters (in the following order): None 
+2026-04-28 18:31:00.9805 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2026-04-28 18:31:00.9805 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing controller factory for controller APILab.Controllers.StudentController (APILab) 
+2026-04-28 18:31:01.4091 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2026-04-28 18:31:01.4389 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed controller factory for controller APILab.Controllers.StudentController (APILab) 
+2026-04-28 18:31:02.2888 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 10.0.7 initialized 'AppMainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.7' with options: EngineType=SqlServer  
+2026-04-28 18:31:02.3145 | DEBUG | Microsoft.EntityFrameworkCore.Query | Compiling query expression: 
+'DbSet<Student>()' 
+2026-04-28 18:31:02.5642 | DEBUG | Microsoft.EntityFrameworkCore.Query | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Student>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Address (string), 1], [Property: Student.Age (int) Required, 2], [Property: Student.DateOfBirth (DateOnly) Required, 3], [Property: Student.Email (string) Required, 4], [Property: Student.Image (string), 5], [Property: Student.Level (int) Required, 6], [Property: Student.Name (string) Required MaxLength(12), 7], [Property: Student.SSN (int) Required, 8] }
+        SELECT s.Id, s.Address, s.Age, s.DateOfBirth, s.Email, s.Image, s.Level, s.Name, s.SSN
+        FROM students AS s) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Student.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.Address (string), 1], [Property: Student.Age (int) Required, 2], [Property: Student.DateOfBirth (DateOnly) Required, 3], [Property: Student.Email (string) Required, 4], [Property: Student.Image (string), 5], [Property: Student.Level (int) Required, 6], [Property: Student.Name (string) Required MaxLength(12), 7], [Property: Student.SSN (int) Required, 8] }
+        SELECT s.Id, s.Address, s.Age, s.DateOfBirth, s.Email, s.Image, s.Level, s.Name, s.SSN
+        FROM students AS s, 
+        False, 
+        MultipleParameters
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Student entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Student instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Student);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Student.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("APILab.Models.Student").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Student)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Student | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("APILab.Models.Student")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Student | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("APILab.Models.Student")]: 
+                        {
+                            return 
+                            {
+                                Student instance;
+                                instance = new Student();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<Address>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                instance.<Age>k__BackingField = dataReader.GetInt32(2);
+                                instance.<DateOfBirth>k__BackingField = dataReader.GetFieldValue<DateOnly>(3);
+                                instance.<Email>k__BackingField = dataReader.GetString(4);
+                                instance.<Image>k__BackingField = dataReader.IsDBNull(5) ? default(string) : dataReader.GetString(5);
+                                instance.<Level>k__BackingField = dataReader.GetInt32(6);
+                                instance.<Name>k__BackingField = dataReader.GetString(7);
+                                instance.<SSN>k__BackingField = dataReader.GetInt32(8);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Student | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("APILab.Models.Student")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Student)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: APILab.Models.AppMainContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2026-04-28 18:31:02.5930 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Creating DbConnection. 
+2026-04-28 18:31:02.6165 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Created DbConnection. (20ms). 
+2026-04-28 18:31:02.6165 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'APIDb' on server '.'. 
+2026-04-28 18:31:03.0980 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'APIDb' on server '.'. 
+2026-04-28 18:31:03.0980 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2026-04-28 18:31:03.1120 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (4ms). 
+2026-04-28 18:31:03.1120 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (13ms). 
+2026-04-28 18:31:03.1222 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[DateOfBirth], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [s].[SSN]
+FROM [students] AS [s] 
+2026-04-28 18:31:03.1656 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[DateOfBirth], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [s].[SSN]
+FROM [students] AS [s] 
+2026-04-28 18:31:03.2098 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'AppMainContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2026-04-28 18:31:03.2302 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'AppMainContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2026-04-28 18:31:03.2303 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'AppMainContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2026-04-28 18:31:03.2303 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'AppMainContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2026-04-28 18:31:03.2303 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'APIDb' on server '.'. 
+2026-04-28 18:31:03.2303 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'APIDb' on server '.' is being disposed after spending 70ms reading results. 
+2026-04-28 18:31:03.2303 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'APIDb' on server '.'. 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'APIDb' on server '.' (5ms). 
+2026-04-28 18:31:03.2506 | INFO | APILab.Controllers.StudentController | Return all students and the count of them is 4 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | No information found on request to perform content negotiation. 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select the first formatter in the output formatters list which can write the result. 
+2026-04-28 18:31:03.2506 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2026-04-28 18:31:03.2506 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[APILab.Models.Student, APILab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2026-04-28 18:31:03.2755 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action APILab.Controllers.StudentController.GetAll (APILab) in 2287.2933ms 
+2026-04-28 18:31:03.2755 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'APILab.Controllers.StudentController.GetAll (APILab)' 
+2026-04-28 18:31:03.2755 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNL57CGAKV9G" completed keep alive response. 
+2026-04-28 18:31:03.2781 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | 'AppMainContext' disposed. 
+2026-04-28 18:31:03.2781 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposing connection to database 'APIDb' on server '.'. 
+2026-04-28 18:31:03.2781 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposed connection to database '' on server '' (1ms). 
+2026-04-28 18:31:03.2781 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET http://localhost:5062/api/Student - 200 - application/json;+charset=utf-8 2340.1811ms 
