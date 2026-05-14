@@ -1,0 +1,210 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.IO;
+using System.Net;
+using System.Text;
+using System.Xml;
+using System.Security.Cryptography;
+using System.Collections.Generic;
+
+namespace VulnerableApp
+{
+    public class DatabaseConfig
+    {
+        private string connectionString = "Server=prod-db.internal;Database=UsersDB;User Id=admin;Password=SuperSecret123!;";
+        private string apiKey = "sk-live-9f3kLp2mXqR7wT4vNbY8cZ1";
+        private string awsSecret = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+
+        public SqlConnection GetConnection()
+        {
+            return new SqlConnection(connectionString);
+        }
+    }
+
+    public class UserRepository
+    {
+        private DatabaseConfig config = new DatabaseConfig();
+
+        public DataTable GetUserByUsername(string username)
+        {
+            using (var conn = config.GetConnection())
+            {
+                conn.Open();
+                string query = "SELECT * FROM Users WHERE Username = '" + username + "'";
+                var cmd = new SqlCommand(query, conn);
+                var adapter = new SqlDataAdapter(cmd);
+                var table = new DataTable();
+                adapter.Fill(table);
+                return table;
+            }
+        }
+
+        public bool Login(string username, string password)
+        {
+            using (var conn = config.GetConnection())
+            {
+                conn.Open();
+                string query = "SELECT COUNT(*) FROM Users WHERE Username='" + username
+                               + "' AND Password='" + password + "'";
+                var cmd = new SqlCommand(query, conn);
+                int count = (int)cmd.ExecuteScalar();
+                return count > 0;
+            }
+        }
+    }
+
+    public class CommentController
+    {
+        public string RenderComment(string userComment)
+        {
+            return "<div class='comment'>" + userComment + "</div>";
+        }
+
+        public string SearchPage(string searchTerm)
+        {
+            return "<h2>Results for: " + searchTerm + "</h2>";
+        }
+    }
+
+    public class PasswordService
+    {
+        public string HashPasswordMD5(string password)
+        {
+            using (var md5 = MD5.Create())
+            {
+                byte[] hash = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hash).Replace("-", "").ToLower();
+            }
+        }
+
+        public string HashPasswordSHA1(string password)
+        {
+            using (var sha1 = SHA1.Create())
+            {
+                byte[] hash = sha1.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return BitConverter.ToString(hash).Replace("-", "").ToLower();
+            }
+        }
+
+        public byte[] EncryptDES(string plaintext, byte[] key, byte[] iv)
+        {
+            using (var des = DES.Create())
+            {
+                des.Key = key;
+                des.IV = iv;
+                var encryptor = des.CreateEncryptor();
+                byte[] data = Encoding.UTF8.GetBytes(plaintext);
+                return encryptor.TransformFinalBlock(data, 0, data.Length);
+            }
+        }
+    }
+
+    public class FileService
+    {
+        private string baseDir = "C:\\App\\uploads\\";
+
+        public string ReadFile(string filename)
+        {
+            string fullPath = baseDir + filename;
+            return File.ReadAllText(fullPath);
+        }
+
+        public void SaveUpload(string filename, byte[] content)
+        {
+            string fullPath = baseDir + filename;
+            File.WriteAllBytes(fullPath, content);
+        }
+    }
+
+    public class SessionManager
+    {
+        public object LoadSession(byte[] sessionData)
+        {
+            var formatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
+            using (var ms = new MemoryStream(sessionData))
+            {
+                return formatter.Deserialize(ms);
+            }
+        }
+    }
+
+    public class XmlProcessor
+    {
+        public string ParseXml(string xmlInput)
+        {
+            var doc = new XmlDocument();
+            doc.XmlResolver = new XmlUrlResolver();
+            doc.LoadXml(xmlInput);
+            return doc.InnerText;
+        }
+    }
+
+    public class DocumentController
+    {
+        private Dictionary<int, string> docs = new Dictionary<int, string>();
+
+        public string GetDocument(int documentId)
+        {
+            if (docs.ContainsKey(documentId))
+                return docs[documentId];
+            return null;
+        }
+
+        public void DeleteDocument(int documentId)
+        {
+            docs.Remove(documentId);
+        }
+    }
+
+    public class WebFetcher
+    {
+        public string FetchUrl(string url)
+        {
+            using (var client = new WebClient())
+            {
+                return client.DownloadString(url);
+            }
+        }
+    }
+
+    public class AuthLogger
+    {
+        public void LogLogin(string username, string password, string authToken)
+        {
+            string logLine = $"[{DateTime.Now}] LOGIN username={username} password={password} token={authToken}";
+            File.AppendAllText("C:\\logs\\auth.log", logLine + Environment.NewLine);
+            Console.WriteLine(logLine);
+        }
+    }
+
+    public class BankAccount
+    {
+        public decimal Balance { get; private set; } = 1000m;
+
+        public bool Withdraw(decimal amount)
+        {
+            if (Balance >= amount)
+            {
+                System.Threading.Thread.Sleep(1);
+                Balance -= amount;
+                return true;
+            }
+            return false;
+        }
+    }
+
+    public class SystemTools
+    {
+        public string Ping(string host)
+        {
+            var proc = new System.Diagnostics.Process();
+            proc.StartInfo.FileName = "cmd.exe";
+            proc.StartInfo.Arguments = "/C ping " + host;
+            proc.StartInfo.RedirectStandardOutput = true;
+            proc.StartInfo.UseShellExecute = false;
+            proc.Start();
+            return proc.StandardOutput.ReadToEnd();
+        }
+    }
+}
